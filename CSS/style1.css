@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Source+Code+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    /* background-color:crimson; */
+    background-image: linear-gradient(#05211f,#66FCF1);
+    /* background-color: #149ded; */
+    color: black;
+    position: absolute;
+    /* width:430px; */
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    transition: transform 0.3s ease-in;
+}
+.sidebar nav{
+    padding:45px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding:20px 0;
+    text-decoration: none;
+}
+.sidebar nav li a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+.social{
+    margin-top: 37vh;
+    margin-left: 66px;
+}
+progress{
+    width: 100vh;
+    height: 16px ;
+}
+progress {
+    accent-color:#66FCF1;
+  }
+.main{
+    /* background-color: yellow; */
+    width: 95vw;
+}
+.container{
+    display: flex;
+    background-image: linear-gradient(#05211f,#02181f);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    /* background-color:white; */
+}
+.info{
+    /* background-color:pink; */
+    /* background-color:white; */
+    /* background-image: url(back2.jpg); */
+    color:white;
+    height:58vh;
+    width:80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devinfo{
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+    margin-left: 40px;
+}
+.hello{
+font-size:3em;
+}
+.name{
+font-size: 3em;
+font-weight: bold;
+font-family: 'Roboto', sans-serif;
+}
+.about{
+font-size: 2.5em;
+}
+.moreabout{
+    margin-top: 2em;
+    font-size: 2.2em;
+    font-family: 'Roboto', sans-serif;
+
+}
+.buttons{
+    margin-top: 34px;
+}
+.btn{
+    margin: 0 3px;
+    padding: 9px 14px;
+    border-radius: 4px;
+    color: white;
+    background-color: BLACK;
+    font-weight: bold;
+    font-size: 1em;
+    cursor: pointer;
+    border-color: #45a29e;
+}
+.btn-sm{
+ font-size: 14px; 
+ padding: 10px 19px;
+ margin: 12px 17px;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+.devpic img{
+    height: 58vh;
+}
+.projects{
+    margin-top: 30px;
+    margin-left: 5vw;
+}
+.project{
+    margin-top: 20px;
+}
+.procontainer{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.project img{
+ width:20vw;
+ height:20vh;
+ border: 5px solid#66FCF1 ;
+ border-radius: 20px;
+
+ 
+}
+.main h1{
+    margin-top: 10px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3em;
+    font-weight: bold;
+}
+.project p{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+}
+.contactform{
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    padding: 0 34px;
+    /* padding-top: 70px; */
+    margin:70px 0;
+}
+.contactform h1{
+    font-size: 40px;
+    color: white;
+    font-family: 'Source Code Pro', monospace;
+    /* text-align: center; */
+}
+.contactform form div{
+    padding: 10px 0;
+    padding-left: 20px;
+    display: flex;
+    color: white;
+    flex-direction: column
+}
+.contactform form{
+    margin: 0 40px;
+}
+/* .contactform form button{
+    margin-left: 20px;
+    padding:4px;
+    width:70px;
+} */
+.contactform form div input{
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+.mb-1{
+    margin-top: 30px;
+}
+
+#emailhelp{
+    font-size: 8px;
+    margin:0 5px
+}
+#form-check{
+    flex-direction: row;
+}
+#form-check input{
+    width: 24px;
+    margin: 5px 0;
+}
+#emailHelp{
+padding-left: 0px;
+}
+.blogitem{
+margin: 20px;
+font-family: 'Roboto', sans-serif;
+}
+.blogcontainer{
+    margin: 88px;
+}
+.blogcontainer h1{
+    font-family: 'Poppins', sans-serif;
+    margin: 23px;
+    color: white;
+}
+.blogcontainer h2{
+    color: white;
+}
+.blogitem p{
+    font-family: 'Source Code Pro', monospace;
+    margin-left: 16px;
+    color: white;
+}
+.intro h2{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin: 12px;
+}
+.intro{
+    margin: 88px;
+}
+.intro p{
+    font-family: 'Source Code Pro', monospace;
+    color: white;
+    margin: 12px;
+}
+.skillcontainer{
+    margin: 12px;
+}
+.skillcontainer label{
+color: white;
+font-family: 'Poppins', sans-serif;
+}
+.skillitem{
+    font-weight: bold;
+    color: white;
+}
+.t5{
+    width:12.5vw;
+    height:20px;
+    background-color:cyan;
+    border: 2px solid black;
+}
+.fifty{
+    width:25vw;
+    background-color: darkcyan;
+    border: 2px solid black;
+    height:20px;
+}
+.hundred{
+    width: 50vw;
+    background-color: darkblue;
+    border: 2px solid black;
+    height:20px;
+}
+.sidebarGo{
+transform: translate(-443px, 0);
+position: absolute;
+
+}
+.hamburger{
+position: absolute;
+cursor: pointer;
+top: 10px;
+left: 10px;
+}
+.cross{
+    margin-left: 155px;
+}
+@media (max-width: 1010px ){
+  /* *{
+    background-color: cadetblue;
+  } */
+  .devpic img{
+      height: 49vh ;
+  }
+  .devinfo{
+      font-size: 10px;
+  }
+  span{
+    color: crimson;
+    
+    font-weight: bold;
+  }
+  .procontainer{
+    margin-top: 10px;
+    display: grid;
+    justify-content: space-evenly;
+}
+.project img{
+    width:40vw;
+    height:25vh;
+    border: 5px solid#66FCF1 ;
+    border-radius: 20px;
+   
+    
+   }
+  /* .sidebar{
+      transform: translate(-443px, 0px);
+      position: absolute;
+  } */
+  .intro, .blogcontainer, .contactform{
+      margin:50px 8px;
+  }
+  .contactform form div input{
+    width: 40vw;
+  }
+}
+@media (max-width: 555px ){
+    /* *{
+      background-color: cadetblue;
+    } */
+    .devpic{
+        display: none;
+    }
+    .contactform form div input{
+        width: 40vw;
+      }
+  
+  }
+  @media (max-width: 450px ){
+    /* *{
+      background-color: cadetblue;
+    } */
+    .devpic{
+        display: none;
+    }
+    .devinfo{
+        font-size: 9px;
+    }
+    .contactform form div input{
+        width: 40vw;
+      }
+  }
+  @media (max-width: 400px ){
+    /* *{
+      background-color: cadetblue;
+    } */
+    .devpic{
+        display: none;
+    }
+    .devinfo{
+        font-size: 8.7px;
+    }
+    .contactform form div input{
+        width: 40vw;
+      }
+  }
+  @media (max-width: 350px ){
+    /* *{
+      background-color: cadetblue;
+    } */
+    .devpic{
+        display: none;
+    }
+    .devinfo{
+        font-size: 8px;
+    }
+    .contactform form div input{
+        width: 40vw;
+      }
+  }
